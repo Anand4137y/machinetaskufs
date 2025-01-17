@@ -1,0 +1,59 @@
+.footer {
+    width: 100%;
+    height: auto; 
+    padding: 36px 120px 24px 120px;
+    background-color: rgb(8, 29, 53);
+    display: flex;
+    justify-content: space-between; 
+    gap: 48px;
+    color: white;
+    flex-wrap: nowrap; 
+  }
+  
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    flex: 1 1 25%; 
+  }
+  
+  .logofooter {
+    width: 150px;
+    height: 35px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .box2,
+  .box3,
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%; 
+    gap: 10px;
+  }
+  
+  .box2 p, 
+  .box3 p, 
+  .box4 p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: row;
+      align-items: flex-start; 
+      justify-content: space-between;
+    }
+  
+    .box1, .box2, .box3, .box4 {
+      flex: 1 1 23%; 
+      text-align: left; 
+    }
+  }
+  

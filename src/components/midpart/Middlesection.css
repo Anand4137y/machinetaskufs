@@ -1,0 +1,30 @@
+.firstsection{
+    width: 30%;
+    height: 110vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.secondsection {
+    width: 100%;
+    height: Hug (604px)px;
+    gap: 16px;
+    opacity: 0px;
+}
+.firstsection div{
+    width: 100%;
+    row-gap: 3px;
+}
+.range{
+    width: 90%;
+    height: 200px;
+}
+.product{
+    width: 90%;
+    height: 250px;
+}
+
+.ads{
+    height: 200px;
+    width: 90%;
+}
+    

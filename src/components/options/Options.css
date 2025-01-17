@@ -1,0 +1,23 @@
+.optionswrap {
+    width: 95%;
+    height: 30px;
+    background-color: #DADADA40;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.listwrap {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.listwrap li {
+    padding: 0 5px;
+    font-size: 14px;
+}
